@@ -1,0 +1,73 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: #282c34;
+  align-items: center;
+}
+
+.App-header {
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-header h1 {
+  margin: 0px;
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+.last-week-challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgreen;
+  color: white;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.this-week-challenge {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: darkgreen;
+  color: white;
+  margin-bottom: 30px;
+  padding: 15px;
+}
+
+.helper-container {
+  display: flex;
+  flex-direction: column;
+  background-color: darkgreen;
+  color: white;
+  padding: 15px;
+}
+
+.helper-container button {
+  display: flex;
+  width: 150px;
+}
+
+.helper-container h2 {
+  display: flex;
+  align-self: center;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.input-container input {
+  height: 25px;
+  align-self: center;
+  margin-left: 5px;
+}
